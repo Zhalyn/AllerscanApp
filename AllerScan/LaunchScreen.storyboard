@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-profile-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Bx6-04-Y03">
+                                <rect key="frame" x="20" y="209" width="367" height="302"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sQ-Z4-jxg">
+                                <rect key="frame" x="182" y="776.66666666666663" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOb-3f-WSa">
+                                <rect key="frame" x="186" y="84" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Allerscan-sign-logo" translatesAutoresizingMaskIntoConstraints="NO" id="FP5-T0-juw">
+                                <rect key="frame" x="37" y="497" width="340" height="194"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KOb-3f-WSa" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="186" id="1Rt-pg-BTB"/>
+                            <constraint firstItem="FP5-T0-juw" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="37" id="5Ep-5b-aUi"/>
+                            <constraint firstItem="3sQ-Z4-jxg" firstAttribute="top" secondItem="FP5-T0-juw" secondAttribute="bottom" constant="85.5" id="7G3-AI-GlH"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="3sQ-Z4-jxg" secondAttribute="trailing" constant="190" id="Irx-X2-FVy"/>
+                            <constraint firstItem="Bx6-04-Y03" firstAttribute="top" secondItem="KOb-3f-WSa" secondAttribute="bottom" constant="104" id="NC7-wL-sVg"/>
+                            <constraint firstItem="Bx6-04-Y03" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" id="Ogl-yM-D1H"/>
+                            <constraint firstItem="FP5-T0-juw" firstAttribute="top" secondItem="Bx6-04-Y03" secondAttribute="bottom" constant="-14" id="R4Z-Lj-JuH"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="FP5-T0-juw" secondAttribute="trailing" constant="37" id="Rfb-pL-l4I"/>
+                            <constraint firstItem="3sQ-Z4-jxg" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="182" id="Ugw-wq-pls"/>
+                            <constraint firstItem="KOb-3f-WSa" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="40" id="bqC-wF-cmu"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Bx6-04-Y03" secondAttribute="trailing" constant="27" id="qTZ-cp-PDD"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="KOb-3f-WSa" secondAttribute="trailing" constant="186" id="yjE-ZR-c9D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Allerscan-sign-logo" width="1153" height="194"/>
+        <image name="user-profile-logo" width="383" height="302"/>
+    </resources>
+</document>
